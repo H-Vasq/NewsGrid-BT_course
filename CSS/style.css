@@ -3,7 +3,7 @@
     --secondary-color: #f99500;
     --light-color: #f3f3f3;
     --dark-color: #333;
-    max-width: 1100px;
+    --max-width: 1100px;
 }
 
 .category {
@@ -153,6 +153,17 @@ h6 {
 .list li a:hover {
     color: var(--primary-color) !important;
   }
+
+/* Inner page grid container */
+.page-container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.page-container > *:first-child {
+    grid-row: 1 / span 3;
+}
+
 
 /* Navigation */
 #main-nav {
