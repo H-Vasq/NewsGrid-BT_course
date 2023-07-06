@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Lato&family=Nunito+Sans:wght@300&family=Open+Sans:wght@300;500;700&family=Orbitron&family=Poppins:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)"href="mobile.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 768px)"href="mobile.css"> -->
+    <link rel="stylesheet" href="mobile.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <title>NewsGrid | About</title>
+    <title>NewsGrid | Latest News</title>
     <script src="https://kit.fontawesome.com/378d587755.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,21 +26,40 @@
                 <a href="http:youtube.com" target="_blank"><i class="fab  fa-youtube fa-2x"></i></a>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a class="current"  href="about.html">About</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>    
         </div>
     </nav>
 
-    <section id="about">
+    <section id="article">
         <div class="container">
             <div class="page-container">
                 <article class="card">
-                    <h1 class="l-heading">About Our Organization</h1>
+                    <img src="img/articles/ent1.jpg" alt="">
+                    <h1 class="l-heading">Lorem ipsum dolor sit amet.</h1>
+                    <div class="meta">
+                        <small>
+                            <i class="fas fa-user" style="margin-right: 10px;"></i>Written By J. Doe, June 2023
+                        </small>
+                        <div class="category category-ent">Entertainment</div>
+                    </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore error a sapiente, obcaecati rerum commodi repudiandae ab cupiditate quasi aspernatur repellat ad exercitationem impedit facere facilis iste nam dolor dolorum earum nobis cum sint! Enim, animi! Commodi repellendus natus quidem nemo quo corrupti delectus, nesciunt tenetur veniam officia minus dolorum.</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, ab molestias voluptas ullam qui, quia sed quod minima necessitatibus, maiores laboriosam velit nemo dignissimos. Excepturi aspernatur esse nobis quaerat vero accusantium harum placeat ut, expedita dignissimos suscipit, doloribus velit nam quisquam est aliquam ducimus aut. Quis quas et, asperiores sapiente ex consequatur provident, nesciunt, alias eligendi veritatis atque ipsum error animi soluta mollitia suscipit voluptate distinctio nostrum sunt quo! Veniam assumenda aspernatur voluptatum, expedita, ipsam perspiciatis aperiam ea a qui iusto blanditiis nulla doloribus excepturi ipsum reprehenderit eos, doloremque consequatur quidem at itaque soluta ullam asperiores! Est harum odit error!</p>
                 </article>
-                <aside class="card bg-primary">
+
+                <aside id="categories" class="card">
+                    <h2>Categories</h2>
+                    <ul class="list">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Sports</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Entertainment</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Technology</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Fashion</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i>Shopping</a></li>
+                    </ul>
+                </aside>
+
+                <aside class="card bg-secondary">
                     <h2>Join Our Club</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, beatae.</p>
                     <a href="" class="btn btn-dark btn-block">Join Now</a>
