@@ -104,6 +104,10 @@ h6 {
     opacity: 0.9;
 }
 
+.art-btn a:hover {
+    color: #f99500;
+}
+
 .card {
     background: #fff;
     padding: 1rem;
