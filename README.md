@@ -1,4 +1,4 @@
- # <div align="center"> NewsGrid-BT_course </div>
+ # <div align="center"> NewsGrid Template </div>
 
 
 <div align="center">
