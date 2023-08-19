@@ -1,4 +1,4 @@
- # <div align="center"> NewsGrid Template </div>
+ # <div align="center" style="border-bottom: none"> NewsGrid Template </div>
 
 
 <div align="center">
